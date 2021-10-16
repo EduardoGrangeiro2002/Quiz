@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Fisiologia</title>
+    <link rel="stylesheet" href="./suporte.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    
+    <ul class="nav nav-tabs nav-justified">
+
+        <li class="nav-item"><a class="nav-link active" href="#Bloco1" data-toggle="tab">  Questão 1  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco2" data-toggle="tab">  Questão 2  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco3" data-toggle="tab">  Questão 3  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco4" data-toggle="tab">  Questão 4  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco5" data-toggle="tab">  Questão 5  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco6" data-toggle="tab">  Questão 6  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco7" data-toggle="tab">  Questão 7  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco8" data-toggle="tab">  Questão 8  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco9" data-toggle="tab">  Questão 9  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco10" data-toggle="tab"> Questão 10  </a></li>
+        <li class="nav-item"><a class="nav-link"        href="#Bloco11" data-toggle="tab"> </a></li>
+        
+    </ul>
+    <div class="container text-center">
+ 
+       <h1 class="text-danger">Quiz sobre o sistema cardiovascular </h1>
+        <div class="text-left tab-content">
+
+          <div id="Bloco1" class="tab-pane active">
+            <h3 class="mb-5">1- Sobre a estrutura do sistema cardiovascular é correto afirmar que:</h3>
+            
+            <button id="0"  style="white-space: normal;"  class=" btn d-block w-100 text-left btn-light" onclick="Check(this)">A-) Os vasos sanguíneos são compostos por músculos estriados. </button>
+            <button id="10" style="white-space: normal;"  class=" btn d-block w-100 text-left btn-light" onclick="Check(this)">B-) É formada por coração, vasos sanguíneos e sangue.    </button>
+            <button id="0"  style="white-space: normal;" class=" btn d-block w-100 text-left btn-light" onclick="Check(this)">C-) O coração, órgão muscular oco, está situado atrás dos pulmões. </button>
+            <button id="0"  style="white-space: normal;" class=" btn d-block w-100 text-left btn-light" onclick="Check(this)">D-) O sangue é o principal órgão do sistema cardiovascular. </button>
+
+            <button onclick="Next()" class=" cor w-100 btn btn-success">Proxima</button>
+
+          </div>
+            
+            
+          <div id="Bloco2" class="tab-pane fade ">
+            <h3  class="mt-5">2- A pressão arterial está diretamente relacionada ao ciclo cardíaco e sobre ela é INCORRETO afirmar que: </h3>
+
+            <button id="10" style="white-space: normal;" class="btn d-block text-left btn-light w-100"onclick="Check(this)">A-) Apresenta valores fixos independente da condição do indivíduo, como por exemplo a gravidez.  </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)">B-) A hipotensão arterial corresponde aos valores abaixo do ideal. </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)">C-) A hipertensão corresponde à pressão arterial acima do ideal. </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)">D-) Corresponde à pressão que o sangue faz sobre as paredes das artérias. </button>
+            <button onclick="Next()" class=" cor w-100 btn btn-success cor float-right">Proxima</button>
+  
+        </div>
+
+          <div id="Bloco3" class="tab-pane fade">
+
+            <h3  class="mt-5">3- A função do nódulo sinoatrial no coração humano é:  </h3>
+
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100 "  onclick="Check(this)">a) regular a circulação coronariana. </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">b) controlar a abertura e o fechamento da válvula tricúspide. </button>
+            <button id="10" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)">c) funcionar como marca-passo, controlando a ritmicidade cardíaca.  </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">d) controlar a abertura e o fechamento da válvula mitral. </button>
+            <button onclick="Next()" class=" cor w-100 btn btn-success float-right">Proxima</button>
+  
+        </div>
+
+          <div id="Bloco4" class="tab-pane fade">
+
+            <h3 class="mt-5">4- Os Vasos sanguíneos dividem-se em três tipos, quais são eles? </h3>
+
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">A-) Veias, Aorta, Veia pulmonar. </button>
+            <button id="10" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)">B-) Veias, Artérias, Capilares.   </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">C-) Aorta, Válvulas, Veias. </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">D-) Capilares, Aorta, Artérias. </button>
+            <button onclick="Next()" class=" cor w-100 btn btn-success float-right">Proxima</button>
+ 
+        </div>
+
+         <div id="Bloco5" class="tab-pane fade">
+
+            <h3 class="mt-5">5- Quais são as células que dão a cor vermelha do sangue?  </h3>
+
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">A-)Sangue Venoso.  </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)">B-)Sangue Arterial.  </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">C-)Glóbulos Brancos.  </button>
+            <button id="10"  style="white-space: normal;" class="btn d-block text-left btn-light w-100"  onclick="Check(this)">D-)Glóbulos Vermelhos.  </button>
+            <button onclick="Next()" class=" cor w-100 btn btn-success float-right">Proxima</button>
+
+        </div>
+
+         <div id="Bloco6" class="tab-pane fade">
+
+            <h3>6- Sobre o funcionamento do sistema cardiovascular humano, assinale a opção correta. </h3>
+            
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >A-) Durante a prática de exercícios físicos, ocorre aumento da frequência cardíaca e diminuição da pressão arterial. </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >B-) Durante o período de sono, ocorre diminuição da frequência cardíaca, o que favorece o aumento de nutrientes e oxigênio nos órgãos. </button>
+            <button id="0"  style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >C-) Diferentemente da frequência cardíaca, a pressão sanguínea mantém-se a mesma antes e logo depois do esforço físico. </button>
+            <button id="10"  style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >D-) Um indivíduo em situação de estresse normalmente apresenta elevação da frequência cardíaca e da pressão arterial, devido à liberação de adrenalina pelas glândulas suprarrenais.  </button>
+            <button onclick="Next()" class=" cor w-100 btn btn-success float-right">Proxima</button>
+ 
+        </div>
+            
+            
+         <div id="Bloco7" class="tab-pane fade">
+
+            <h3 class="mt-5">7- A quantidade de sangue bombeada por cada ventrículo, em litros, por minuto é denominada: </h3>
+
+
+            <button id="10" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)"  >A-) Débito cardíaco.  </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >B-) Diástole. </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >C-) Sístole. </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >D-) Pós-carga. </button>
+            <button  onclick="Next()" class=" cor w-100 btn btn-success float-right">Proxima</button>
+ 
+        </div>
+
+         <div id="Bloco8" class="tab-pane fade">
+
+            <h3 class="mt-5">8- Preencha as lacunas e assinale a alternativa correta.  
+
+                A pressão arterial (PA) é a resultante da força exercida pelo ________ nas paredes das ________, do volume de sangue _________, da força de contração do coração e da________ na parede dos vasos. </h3>
+
+
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >A-) coração / artérias / circulante / força </button>
+            <button id="10" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >B-) sangue / artérias / circulante / resistência    </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >C-) sangue / varicoses / circulante / repetição  </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >D-) coração / veias / circulante / repetição  </button>
+            <button id="0" style="white-space: normal;" onclick="Next()" class="cor w-100 btn btn-success float-right">Proxima</button>
+ 
+        </div>
+
+         <div id="Bloco9" class="tab-pane fade">
+
+            <h3 class="mt-5">9- O sistema de condução cardíaca gera e transmite impulsos elétricos que estimulam a contração do miocárdio. O sistema de condução estimula primeiramente a contração dos(as): </h3>
+
+
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >A-) células nodais.  </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >B-) ventrículos.   </button>
+            <button id="10" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >C-) átrios.   </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >D-) vasos cardíacos. </button>
+            <button onclick="Next()" class="w-100 btn cor btn-success float-right">Proxima</button>
+ 
+        </div>
+
+         <div id="Bloco10" class="tab-pane fade">
+
+            <h3 class="mt-5">10- Analise as alternativas e assinale a CORRETA em relação à função cardíaca: </h3>
+
+
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >A-) O coração recebe sangue venoso proveniente de todo o organismo através das artérias pulmonares.  </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >B-) O sangue chega aos pulmões através da artéria aorta.   </button>
+            <button id="0" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >C-) O sangue é impulsionado à circulação sistêmica pela veia cava. </button>
+            <button id="10" style="white-space: normal;" class="btn d-block text-left btn-light w-100" onclick="Check(this)" >D-) O coração recebe sangue venoso proveniente de todo o organismo através das veias cavas superior e inferior.</button>
+            <button onclick="End()" class="w-100 btn btn-success">Finalizar</button>
+ 
+        </div>
+
+        
+        </div>
+
+
+
+  
+
+    </div>
+
+   
+</div>
+<div  id="Bloco11" class="tab-pane d-none fade">
+
+    <div class="d-flex flex-column justify-content-start align-items-center  m25">
+       <div id="Texto" class=""></div>
+       <button  class="btn-warning btn-lg mt-5" value="Refresh Page" onClick="window.location.reload()">Tentar Novamente</button>
+    </div>
+   
+   </div>
+
+
+
+<script src="./interface.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
